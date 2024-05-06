@@ -40,9 +40,9 @@
 }
 
 .navigation {
-  width: 100%;
   cursor: default;
   background-color: rgba(0, 0, 0, 0);
+  width: 100%;
   position: static;
   top: 0%;
   bottom: auto;
@@ -82,8 +82,8 @@
 }
 
 .work {
-  height: 140vh;
   background-color: rgba(0, 0, 0, 0);
+  height: 140vh;
   position: relative;
   overflow: hidden;
 }
@@ -193,29 +193,29 @@
 }
 
 .submit-button {
-  width: 100%;
   color: #333;
   background-color: #fff;
   border: 1px solid #333;
+  width: 100%;
   margin-top: 10px;
   font-size: 18px;
 }
 
 .about__container {
-  width: 1140px;
   justify-content: center;
   align-items: center;
+  width: 1140px;
   display: flex;
 }
 
 .background-computer__div {
-  width: 100%;
-  height: 110vh;
   background-image: url('../images/artwork-new.gif');
   background-position: 50% 0;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: scroll;
+  width: 100%;
+  height: 110vh;
   position: relative;
   overflow: hidden;
 }
@@ -240,11 +240,11 @@
 
 .modal {
   z-index: 99;
-  width: 100%;
-  height: 100vh;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  height: 100vh;
   display: none;
   position: fixed;
   top: 0%;
@@ -253,23 +253,23 @@
   right: 0%;
 }
 
-.modal.minx, .modal.cancer, .modal.kobiety, .modal.samsung, .modal.colgate, .modal.zywiec, .modal.jaguar, .modal.land {
+.modal.minx, .modal.cancer, .modal.kobiety, .modal.samsung, .modal.colgate, .modal.zywiec, .modal.jaguar, .modal.land, .modal.sanex, .modal.arelion {
   display: none;
 }
 
 .modal__bg {
-  width: 100%;
-  height: 100vh;
   opacity: 1;
   -webkit-backdrop-filter: blur(2px);
   backdrop-filter: blur(2px);
   background-color: rgba(49, 26, 141, .15);
+  width: 100%;
+  height: 100vh;
 }
 
 .modal__container {
+  background-color: #bfbfbf;
   width: 100%;
   max-width: 35rem;
-  background-color: #bfbfbf;
   position: absolute;
 }
 
@@ -283,13 +283,13 @@
 
 .work-file__div {
   z-index: 9999;
-  width: 150px;
-  height: 190px;
   background-image: url('../images/file-close.png');
   background-position: 50% 0;
   background-repeat: no-repeat;
   background-size: contain;
   background-attachment: scroll;
+  width: 150px;
+  height: 190px;
   margin-left: 10px;
   margin-right: 10px;
   position: relative;
@@ -342,8 +342,8 @@
 }
 
 .nav__container {
-  width: 1140px;
   cursor: default;
+  width: 1140px;
 }
 
 .arrow_left-image {
@@ -364,12 +364,12 @@
 }
 
 .blue__modal {
-  width: 100%;
-  height: 5vh;
   background-image: url('../images/modal.png');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
+  width: 100%;
+  height: 5vh;
   position: relative;
 }
 
@@ -393,7 +393,6 @@
 }
 
 .tab-link-summary {
-  width: 50%;
   border-style: solid solid none;
   border-width: 2px;
   border-color: var(--background) #272727 var(--background) var(--background);
@@ -402,6 +401,7 @@
   background-color: #c8c8c8;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
+  width: 50%;
   text-decoration: none;
 }
 
@@ -422,7 +422,6 @@
 }
 
 .tab-link-view {
-  width: 50%;
   border-style: solid solid none;
   border-width: 2px 2px 1px;
   border-color: var(--background) #272727 var(--background) var(--background);
@@ -431,6 +430,7 @@
   background-color: #c8c8c8;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
+  width: 50%;
   text-decoration: none;
 }
 
@@ -439,9 +439,9 @@
 }
 
 .tab-link-view.w--current {
-  width: 50%;
   text-align: center;
   background-color: #dfdfdf;
+  width: 50%;
   text-decoration: none;
 }
 
@@ -484,11 +484,11 @@
 }
 
 .stack__card {
-  height: 15rem;
   background-image: url('../images/Jaguar_Land_Rover_2022.svg');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: contain;
+  height: 15rem;
   margin-bottom: 20rem;
   position: -webkit-sticky;
   position: sticky;
@@ -549,8 +549,8 @@
 }
 
 .stack__info {
-  height: 25rem;
   flex: 1;
+  height: 25rem;
   margin-bottom: 9rem;
   position: -webkit-sticky;
   position: sticky;
@@ -580,8 +580,8 @@
 }
 
 .heading--style.tools {
-  width: auto;
   text-align: left;
+  width: auto;
   margin-left: 0;
   margin-right: 0;
   padding-left: 20px;
@@ -680,7 +680,6 @@
 }
 
 .normal__image {
-  height: 100%;
   opacity: .02;
   background-image: url('../images/arek1.png');
   background-repeat: no-repeat;
@@ -688,6 +687,7 @@
   flex: 1;
   justify-content: flex-start;
   align-self: stretch;
+  height: 100%;
   display: block;
   position: absolute;
   top: 0%;
@@ -697,13 +697,13 @@
 }
 
 .pixel__image {
-  height: 100%;
   opacity: 1;
   background-image: url('../images/Pixel_Art_Pixel_art_full_head_big_clear_eyes_0.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   flex: 1;
   align-self: stretch;
+  height: 100%;
   display: block;
   position: absolute;
   top: 0%;
@@ -768,6 +768,10 @@
 }
 
 .cell-slider {
+  background-image: url('../images/Magnolia_CMS_logo-svg.svg');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
   justify-content: center;
   align-items: center;
   padding: 40px;
@@ -901,7 +905,7 @@
 }
 
 .cell-slider.postman {
-  background-image: url('../images/postman-icon-svgrepo-com-svg.svg');
+  background-image: url('../images/Magnolia_CMS_logo-svg.svg');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: contain;
@@ -1012,17 +1016,17 @@
 }
 
 .top__divider {
+  background-color: #ddd;
   width: 84%;
   height: 2px;
-  background-color: #ddd;
   margin-top: 50px;
   margin-bottom: 50px;
 }
 
 .bottom__divider {
+  background-color: #ddd;
   width: 84%;
   height: 2px;
-  background-color: #ddd;
   margin-top: 50px;
   margin-bottom: 50px;
   margin-left: 16%;
@@ -1060,6 +1064,10 @@
 }
 
 @media screen and (max-width: 991px) {
+  .body {
+    overflow: hidden;
+  }
+
   .nav-menu {
     right: 10px;
   }
@@ -1084,8 +1092,8 @@
 
   .nav__container {
     width: 0;
-    max-width: 1140px;
     min-width: 768px;
+    max-width: 1140px;
   }
 
   .brands {
@@ -1176,7 +1184,7 @@
   }
 
   .modal.cancer {
-    display: none;
+    display: flex;
   }
 
   .tools {
@@ -1196,20 +1204,20 @@
   }
 
   .stack__card.is-2 {
-    height: 13rem;
     align-self: stretch;
+    height: 13rem;
     top: 21rem;
   }
 
   .stack__card.is-3 {
-    height: 13rem;
     align-self: stretch;
+    height: 13rem;
     top: 23rem;
   }
 
   .stack__card.is-4 {
-    height: 13rem;
     align-self: stretch;
+    height: 13rem;
     top: 25rem;
   }
 
@@ -1255,13 +1263,13 @@
   }
 
   .image__container {
-    width: 370px;
     grid-column-gap: 16px;
     grid-row-gap: 16px;
     flex: 0 auto;
     grid-template-rows: auto auto;
     grid-template-columns: 1fr 1fr;
     grid-auto-columns: 1fr;
+    width: 370px;
   }
 
   .chat__image {
@@ -1322,12 +1330,26 @@
     flex-wrap: wrap;
   }
 
-  .modal.minx, .modal.cancer, .modal.kobiety, .modal.samsung, .modal.colgate, .modal.rethink, .modal.zywiec, .modal.jaguar, .modal.land {
+  .modal.minx {
+    display: none;
+  }
+
+  .modal.cancer {
+    opacity: 1;
+    display: none;
+  }
+
+  .modal.kobiety, .modal.samsung, .modal.colgate, .modal.rethink, .modal.zywiec, .modal.jaguar, .modal.land {
     display: none;
   }
 
   .modal__bg {
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
     flex: 1;
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-columns: 1fr;
   }
 
   .tools {
@@ -1338,7 +1360,7 @@
     min-width: 320px;
   }
 
-  .arrow_left-image {
+  .arrow_left-image.mobile {
     margin: 50px 65px auto auto;
   }
 
@@ -1352,20 +1374,20 @@
   }
 
   .stack__card.is-2 {
-    height: 9rem;
     background-size: 150px;
+    height: 9rem;
     top: 26rem;
   }
 
   .stack__card.is-3 {
-    height: 9rem;
     background-size: 280px;
+    height: 9rem;
     top: 28rem;
   }
 
   .stack__card.is-4 {
-    height: 9rem;
     background-size: 280px;
+    height: 9rem;
     top: 30rem;
   }
 
@@ -1389,8 +1411,8 @@
   }
 
   .image__container {
-    width: 300px;
     flex: 0 auto;
+    width: 300px;
     right: 0;
   }
 
@@ -1472,6 +1494,8 @@
 
   .slider__mobile {
     flex: 1;
+    margin-left: auto;
+    margin-right: auto;
     display: block;
   }
 
