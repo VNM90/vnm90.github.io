@@ -223,7 +223,7 @@
 .work-background__div {
   opacity: 1;
   background-image: url('../images/work-background.png');
-  background-position: 0 0;
+  background-position: 50% 0;
   background-size: auto;
   flex-wrap: wrap;
   align-content: center;
@@ -1086,6 +1086,10 @@
     background-position: 60% 0;
   }
 
+  .work-background__div {
+    background-position: 50% 0;
+  }
+
   .modal, .modal.cancer, .modal.zywiec {
     display: none;
   }
@@ -1175,7 +1179,15 @@
     width: 100%;
   }
 
-  .about, .contact {
+  .about {
+    max-width: 500px;
+  }
+
+  .work {
+    height: 180vh;
+  }
+
+  .contact {
     max-width: 500px;
   }
 
@@ -1191,6 +1203,10 @@
     background-position: 60% 0;
     background-size: 1160px;
     display: flex;
+  }
+
+  .work-background__div {
+    background-position: 50% 0;
   }
 
   .modal.cancer {
@@ -1341,7 +1357,13 @@
   }
 
   .work-background__div {
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
   }
 
   .modal.minx {
