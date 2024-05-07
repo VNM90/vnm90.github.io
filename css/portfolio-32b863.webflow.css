@@ -1082,6 +1082,10 @@
     display: flex;
   }
 
+  .background-computer__div {
+    background-position: 60% 0;
+  }
+
   .modal, .modal.cancer, .modal.zywiec {
     display: none;
   }
@@ -1183,8 +1187,14 @@
     max-width: 500px;
   }
 
-  .modal.cancer {
+  .background-computer__div {
+    background-position: 60% 0;
+    background-size: 1160px;
     display: flex;
+  }
+
+  .modal.cancer {
+    display: none;
   }
 
   .tools {
@@ -1324,6 +1334,10 @@
 
   .about__container {
     max-width: 320px;
+  }
+
+  .background-computer__div {
+    background-position: 55% 0;
   }
 
   .work-background__div {
