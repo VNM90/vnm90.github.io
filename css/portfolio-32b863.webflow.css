@@ -54,6 +54,7 @@
   background-color: var(--background);
   cursor: auto;
   font-family: "Vt 323 Regular", sans-serif;
+  overflow: auto;
 }
 
 .navbar {
@@ -195,10 +196,15 @@
 .submit-button {
   color: #333;
   background-color: #fff;
-  border: 1px solid #333;
+  border: 1px solid #ddd;
   width: 100%;
   margin-top: 10px;
   font-size: 18px;
+}
+
+.submit-button:hover {
+  border-color: #000;
+  border-radius: 1px;
 }
 
 .about__container {
@@ -1065,7 +1071,7 @@
 
 @media screen and (max-width: 991px) {
   .body {
-    overflow: hidden;
+    overflow: auto;
   }
 
   .nav-menu {
@@ -1080,6 +1086,10 @@
     justify-content: center;
     align-items: center;
     display: flex;
+  }
+
+  .submit-button {
+    border-color: #ddd;
   }
 
   .background-computer__div {
